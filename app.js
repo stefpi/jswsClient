@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const wsc = new ws('ws://192.168.0.32:4001');
+const wsc = new ws('ws://ranviermudip');
 
 app.use(bodyParser.urlencoded({ extended:false }));
 app.use(bodyParser.json());
