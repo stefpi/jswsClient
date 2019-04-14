@@ -1,0 +1,27 @@
+{
+  "name": "jswsClient",
+  "version": "0.0.0",
+  "description": "nodejs websocket client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefpi/jswsClient.git"
+  },
+  "author": "stefpi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefpi/jswsClient/issues"
+  },
+  "homepage": "https://github.com/stefpi/jswsClient#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "prompts": "^2.0.3",
+    "readline": "^1.3.0",
+    "websocket": "^1.0.28",
+    "ws": "^6.2.0"
+  }
+}
